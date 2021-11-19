@@ -1,0 +1,5 @@
+<div class="container">
+    <ng-container *ngFor="let voiture of voitures">
+        <app-voiture-card [voiture]="voiture" (voitureSelected)="supprimervoiture($event)"></app-voiture-card>
+    </ng-container>
+</div>

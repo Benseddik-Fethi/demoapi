@@ -1,0 +1,11 @@
+{
+  "voitures": [
+    {
+      "marque": "aston-martin",
+      "couleur": "rouge",
+      "prix": 11000,
+      "image": "https://static.actu.fr/uploads/2021/01/trafic-voitures-fraude-tva-nord-lille-garages-escroquerie-en-bande-organisee.jpeg",
+      "id": 8
+    }
+  ]
+}

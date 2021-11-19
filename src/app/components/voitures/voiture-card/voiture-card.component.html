@@ -1,0 +1,9 @@
+<div class="card" style="width: 18rem;">
+    <img src={{voiture.image}} class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{voiture.marque}}</h5>
+        <p class="card-text">Ceci n'est pas une voiture, c'est une {{voiture.marque}}.</p>
+        <a routerLink="{{voiture.id}}" class="btn btn-primary">Go somewhere</a>
+        <a  class="btn danger"(click)="delete()">supprimer</a>
+    </div>
+</div>
